@@ -138,7 +138,7 @@ Before running the bot, ensure you have the following:
     pip install MetaTrader5
     pip install numpy==1.26.4
     
- Installation & Setup
+## Installation & Setup
 Clone or Download the Repository:
 Download the ZIP file of this project and extract it to a folder on your computer (e.g., C:\TradeSyncBot).
 
@@ -167,7 +167,7 @@ MASTER_PATH = r"C:\Program Files\LiteFinance MT5 Terminal\terminal64.exe"
 # Slave account (E drive)
 SLAVE_PATH = r"E:\Program Files\LiteFinance MT5 Terminal\terminal64.exe"  
 
-🎮 How to Run
+##🎮 How to Run
 Open Both MT5 Terminals:
 
 Open the Master terminal (C drive) and log in to your Master account.
@@ -196,7 +196,8 @@ Test:
 
 Open a new trade on your Master account. The bot will detect it and copy it to the Slave account with the same volume, SL, and TP.
 
-⚠️ Important Notes & Troubleshooting
+##⚠️ Important Notes & Troubleshooting
+
 Security Warning: The accounts.json file contains your passwords. NEVER upload this file to GitHub. Ensure it is listed in your .gitignore file.
 
 Filling Mode Error (10030): If you see this error, don't worry. The script is designed to automatically retry with different filling modes.
