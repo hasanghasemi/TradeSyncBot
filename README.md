@@ -167,7 +167,7 @@ MASTER_PATH = r"C:\Program Files\LiteFinance MT5 Terminal\terminal64.exe"
 # Slave account (E drive)
 SLAVE_PATH = r"E:\Program Files\LiteFinance MT5 Terminal\terminal64.exe"  
 
-##🎮 How to Run
+# 🎮 How to Run
 Open Both MT5 Terminals:
 
 Open the Master terminal (C drive) and log in to your Master account.
@@ -196,7 +196,7 @@ Test:
 
 Open a new trade on your Master account. The bot will detect it and copy it to the Slave account with the same volume, SL, and TP.
 
-##⚠️ Important Notes & Troubleshooting
+# ⚠️ Important Notes & Troubleshooting
 
 Security Warning: The accounts.json file contains your passwords. NEVER upload this file to GitHub. Ensure it is listed in your .gitignore file.
 
